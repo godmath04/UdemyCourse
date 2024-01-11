@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     for (int i = 0; i < 100; i++)
     {
         if (i ==10)
-        continue; // Hace que se salte esa parte
+        continue; // Hace que se salte esa linea
         {
             printf("El valor es> %d\n", i);
         }
