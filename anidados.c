@@ -4,7 +4,7 @@ const char BLANCO = ' ';
 const char CRUZ = 'x';
 
 /*PUTCHAR se utiliza para imprimir un solo caracter de salida estandar 
-Por otro lado PUTS imprime una cadena de caracteres seguida de un salto de linea*/
+Por otro lado PUTS imprime una cadena de caracteres seguida de un*/
 
 int main(int argc, char const *argv[])
 {
