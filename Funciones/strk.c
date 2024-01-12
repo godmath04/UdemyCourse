@@ -11,6 +11,7 @@ int main(int argc, char const *argv[])
 
     sumaTotal = 0;
     token = strtok(contenido, ","); // Primero se pasa el contenido y luego el parametro que limita el contenido
+    // Si hubiera un punto pondria ",."
     if (token == NULL)
     { // Se verifica que el valor no sea nulo
         printf("No hay tokens.\n");
