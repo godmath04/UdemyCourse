@@ -8,17 +8,19 @@ struct infoDireccion
     char codpost[6];
 };
 
-struct infoUsuario
+typedef struct infoDireccion direccion;
+typedef struct infoUsuario
 {
     char nombre[40];
     char apellido[40];
-    struct infoDireccion dir;
+    direccion dir;
+    /* struct infoDireccion dir; esto se usa sin el typef */
     char telefono[10];
-};
+}usuario;
 
 int main(int argc, char const *argv[])
 {
-    struct infoUsuario maria = {
+    usuario maria = {
         "Maria",
         "Sosa",
         {"Avenida Siempreviva",
