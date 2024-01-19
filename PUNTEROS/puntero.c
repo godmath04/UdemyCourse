@@ -8,6 +8,6 @@ int main(int argc, char const *argv[])
     // Direccion en memoria
     printf("%p\n", &numero);
     // Mostrar almecenamiento
-    printf("El amlmacenamiento es %d\n", sizeof(numero));
+    printf("El amlmacenamiento es %d\n", sizeof(numero)); // en bytes
     return 0;
 }
